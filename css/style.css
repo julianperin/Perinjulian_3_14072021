@@ -1,0 +1,8 @@
+body {
+    @font-face {
+        font-family: Rotobo;
+        src: url('fonts-Rotobo/Rotobo-Medium.ttf');
+    }
+    width: 768px;
+}
+
