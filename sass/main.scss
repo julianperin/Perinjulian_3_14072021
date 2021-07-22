@@ -6,6 +6,7 @@ $tertiairecolor: #99E2D0;
 body {
     width: 100%;
     font-size: 20px;
+    margin: 0px;
 }
 
 .search {
@@ -76,6 +77,96 @@ body {
             box-shadow: 1px 1px 10px 0px #0000006b;
             margin-bottom: 25px;
             list-style-type: none;
+
+            &:hover {
+                background-color: #b9a3d3;
+            } 
+            i {
+                position: relative;
+                left: -35px;
+                &:hover {
+                    color: $firstcolor;
+                }
+            }
+             
+        }
+    }
+}
+
+section {
+    background-color: $backcolor;
+    width: 100%;
+    padding-bottom: 50px;
+
+    h2 {
+        padding: 20px;
+    }
+    article {
+        border: 1px solid;
+        border-radius: 25px;
+        margin: 0px 20px 20px 20px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 1px 1px 10px 0px #0000006b;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        figure {
+            margin: 0px;
+
+            img {
+                object-fit: cover;
+                height: 230px;
+                width: 100%;
+            }
+            .new {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                border: 1px solid $tertiairecolor;
+                background-color: $tertiairecolor;
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: #4a7b6e;
+                font-weight: bold;
+            }
+        }
+        figcaption {
+            padding: 20px 15px;
+
+            i {
+                position: absolute;
+                right: 25px;
+                bottom: 12px;
+                font-size: 30px;
+
+                &:hover {
+                    background-image: linear-gradient($firstcolor,$secondcolor);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+
+    h3 {
+        padding: 20px 40px;
+        margin: 0px;
+    }
+    ul {
+        list-style-type: none;
+
+        li {
+            padding-bottom: 12px;
+
+            i {
+                padding-right: 15px;
+            }
         }
     }
 }

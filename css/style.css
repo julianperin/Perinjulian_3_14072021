@@ -1,6 +1,7 @@
 body {
   width: 100%;
   font-size: 20px;
+  margin: 0px;
 }
 
 .search {
@@ -67,6 +68,86 @@ body {
   box-shadow: 1px 1px 10px 0px #0000006b;
   margin-bottom: 25px;
   list-style-type: none;
+}
+.info ol li:hover {
+  background-color: #b9a3d3;
+}
+.info ol li i {
+  position: relative;
+  left: -35px;
+}
+.info ol li i:hover {
+  color: #9356DC;
+}
+
+section {
+  background-color: #8080801c;
+  width: 100%;
+  padding-bottom: 50px;
+}
+section h2 {
+  padding: 20px;
+}
+section article {
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 0px 20px 20px 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 1px 1px 10px 0px #0000006b;
+}
+section article a {
+  text-decoration: none;
+  color: black;
+}
+section article figure {
+  margin: 0px;
+}
+section article figure img {
+  object-fit: cover;
+  height: 230px;
+  width: 100%;
+}
+section article figure .new {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: 1px solid #99E2D0;
+  background-color: #99E2D0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #4a7b6e;
+  font-weight: bold;
+}
+section article figcaption {
+  padding: 20px 15px;
+}
+section article figcaption i {
+  position: absolute;
+  right: 25px;
+  bottom: 12px;
+  font-size: 30px;
+}
+section article figcaption i:hover {
+  background-image: linear-gradient(#9356DC, #FF79DA);
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+footer h3 {
+  padding: 20px 40px;
+  margin: 0px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  padding-bottom: 12px;
+}
+footer ul li i {
+  padding-right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
